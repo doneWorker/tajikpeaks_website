@@ -1,0 +1,18 @@
+#footer {
+  border: 1px solid;
+  height: 250px;
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 500px 250px 250px;
+  color: #32668e;
+}
+
+#footer > div {
+  border: 1px solid;
+}
+
+.footer__logo {
+  background: url(../images/logo.png) center no-repeat;
+  background-size: contain;
+}
