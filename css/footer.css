@@ -1,18 +1,43 @@
 #footer {
-  border: 1px solid;
   height: 250px;
   width: 1000px;
   margin: auto;
   display: grid;
   grid-template-columns: 500px 250px 250px;
   color: #32668e;
+  padding: 50px 0;
 }
 
-#footer > div {
-  border: 1px solid;
-}
 
 .footer__logo {
   background: url(../images/logo.png) center no-repeat;
-  background-size: contain;
+  background-size: 70%;
+}
+
+.contact__title {
+  margin-bottom: 50px;
+}
+
+
+.fab {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 20px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+.fa-facebook-f {
+  background: #3d5998;
+}
+.fa-twitter {
+  background: #1da1f2;
+}
+.fa-instagram {
+  background: #e4405f;
+}
+
+.fab:hover {
+  opacity: .7;
 }
