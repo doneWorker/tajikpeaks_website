@@ -229,9 +229,27 @@
 #contact__form label, #contact__form input {
   width: 100%;
 }
-#contact__form textarea  {
+
+/* #contact__form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+} */
+
+#contact__form textarea, #contact__form input  {
   width: 100%;
   resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#contact__form textarea  {
   height: 150px;
 }
 
@@ -246,6 +264,12 @@
 input[type="submit"] {
   width: 70px !important;
   height: 40px;
+  border: none;
+  font-weight: bold;
+  background: none;
+}
+input[type="date"] {
+  width: 50% !important;
 }
 
 /* ----------------------- */

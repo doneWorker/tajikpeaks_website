@@ -35,18 +35,26 @@
 }
 
 
-.menu__item.lang {
+.menu__item.lang a {
   display: flex;
   align-items: center;
 }
 
 .flag {
   display: inline-block;
-  background: url(../images/en.png) center no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: 100%;
   width: 30px;
   height: 25px;
   margin-right: 5px;
+}
+
+.flag.ru {
+  background-image: url(../images/en.png);
+}
+.flag.en {
+  background-image: url(../images/ru.png);
 }
 
 
