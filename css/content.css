@@ -1,6 +1,6 @@
 .content__logo {
   background: url(../images/logo.png) center no-repeat;
-  background-size: contain;
+  background-size: 80%;
   min-height: 100px;
 }
 
@@ -15,7 +15,8 @@
 .block__1__text {
   padding: 40px 0;
   box-sizing: border-box;
-  line-height: 25px;
+  line-height: 20px;
+  text-align: justify;
 }
 
 /* block 2 */
@@ -333,7 +334,7 @@ input[type="date"] {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-gap: 20px;
-    margin: 20px 100px;
+    margin: 20px 20px 20px 100px;
   }
 }
 
